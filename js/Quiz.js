@@ -35,7 +35,7 @@ class Quiz {
     background("Yellow");
     fill(0);
     textSize(30);
-    text("Result of the Quiz",340, 50);
+    text("Resultado del Quiz",340, 50);
     text("----------------------------",320, 65);
     Contestant.getPlayerInfo();
     if(allContestants !== undefined){
@@ -43,7 +43,7 @@ class Quiz {
       var display_Answers = 230;
       fill("Blue");
       textSize(20);
-      text("*NOTE: Contestant who answered correct are highlighted in green color!",130,230);
+      text("*NOTA: ¡Los concursantes que respondieron correctamente están resaltados en color verde!",130,230);
 
       for(var plr in allContestants){
         debugger;
